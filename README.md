@@ -117,11 +117,25 @@ Usage:
  sudo docker version
 ```
 
+### docker image ls
 
+List images
 
+Usage:
 
+```
+sudo docker image ls
+```
 
+### docker run
 
+Run a command in a new container
+
+usage:
+
+```
+sudo docker run hello-world
+```
 
 
 
