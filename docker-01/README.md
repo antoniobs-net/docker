@@ -19,7 +19,7 @@ Happy docking!
 ### 1) Creating docker file
 
 ```
-
+docker build --tag=demo-app .
 ```
 
 
