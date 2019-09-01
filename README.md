@@ -86,6 +86,17 @@ Source: https://docs.docker.com/install/linux/docker-ce/debian/
 
 # Top Docker Commands
 
+### docker
+
+List Docker CLI commands
+
+Usage:
+
+```
+docker
+docker container --help
+```
+
 ### docker ps
 
 You can see a list of your running containers with the command
@@ -103,7 +114,7 @@ Show the Docker version information
 Usage:
 
 ```
-docker --version
+sudo docker --version
 ```
 
 ### docker info / docker version
@@ -131,13 +142,23 @@ sudo docker image ls
 
 Run a command in a new container
 
-usage:
+Usage:
 
 ```
 sudo docker run hello-world
 ```
 
+### docker container ls
 
+List containers
+
+Usage:
+
+```
+sudo docker container ls
+sudo docker container ls --all
+sudo docker container ls -aq
+```
 
 
 
