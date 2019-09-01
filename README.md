@@ -160,9 +160,15 @@ sudo docker container ls --all
 sudo docker container ls -aq
 ```
 
+### docker restart
 
+Restarting docker service
 
+Usage:
 
+```
+sudo service docker restart
+```
 
 
 
