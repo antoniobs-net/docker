@@ -96,3 +96,38 @@ Usage:
 sudo docker ps
 ```
 
+### docker --version
+
+Show the Docker version information
+
+Usage:
+
+```
+docker --version
+```
+
+### docker info / docker version
+
+Display system-wide information
+
+Usage:
+
+```
+ sudo docker info
+ sudo docker version
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
